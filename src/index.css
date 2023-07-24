@@ -1,13 +1,21 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  background-color: #fafafa;
+}
+.react-tabs__tab{
+background-color: #fff;
+color:gray;
+border: none!important;
+}
+.react-tabs__tab--selected {
+background-color: #EEEAFE!important;
+color:#623CFE!important;
+border-radius: 7px!important;
+
+}
+.react-tabs__tab-list{
+  border-bottom: none;
 }
